@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:url(../src/assets/img/rick-y-morty-en-universo-de-dragon-ball_1920x1080_xtrafondos.com.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
