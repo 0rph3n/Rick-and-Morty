@@ -9,12 +9,27 @@
   flex-direction: column;
   margin-bottom: 30px;
 }
+.botones{
+  display: flex;
+  justify-content: space-between;
+}
 .cerrar{
   color: white;
   text-align: center;
-  width: fit-content;
-  height: fit-content;
+  width: 2rem;
+  height: 1.7rem;
   margin-left: 5px;
+  background: #F23D6D;
+  box-shadow: 0 0 40px 20px #A7CB54;
+  border: 2px #208D45;
+  border-radius: 5px;
+}
+.fav{
+  color: white;
+  text-align: center;
+  width: 2rem;
+  height: 1.7rem;
+  margin-right: 5px;
   background: #F23D6D;
   box-shadow: 0 0 40px 20px #A7CB54;
   border: 2px #208D45;
