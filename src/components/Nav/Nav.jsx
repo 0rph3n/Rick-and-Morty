@@ -8,6 +8,7 @@ export default function Nav({ onSearch }) {
       <Link to="/home">home</Link>
       <Link to="/about">About</Link>
       <Link to="/detail/:detailId">Details</Link>
+      <Link to="/favorites">Favorites</Link>
       <SearchBar onSearch={onSearch} />
     </nav>
   );
